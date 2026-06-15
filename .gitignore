@@ -1,0 +1,29 @@
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# 大型媒体素材（视频/原图）— 用网盘/对象存储管理，不进 git
+*.mov
+*.mp4
+*.MOV
+*.MP4
+*.mkv
+*.psd
+*.ai
+*.sketch
+
+# 大图（>5MB 的原图）放本地 outputs/ 不上传
+outputs/
+
+# 私域数据 / 钩子原始文件 / 商务合作合同
+08_私域转化/客户名单/
+08_私域转化/合同/
+
+# 临时
+*.tmp
+.~lock.*
+.idea/
+.vscode/
+node_modules/
+__pycache__/
+*.pyc
